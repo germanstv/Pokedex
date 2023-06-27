@@ -144,3 +144,31 @@ h5 {
     color: #FFCC02;
     -webkit-text-stroke: 0.5px #3559A1;
 }
+
+/*Slider*/
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-container{
+    display: flex;
+    gap: 30px;
+    overflow-x: scroll;
+    scroll-snap-type: mandatory;
+    padding: 31px;
+    width: 91%;
+}
+
+.son-slider{
+    flex: 0 0 20%;
+    width: 100%;
+    scroll-snap-align: center;
+}
+
+.son-slider img{
+    width: 170px;
+    object-fit: cover;
+}
